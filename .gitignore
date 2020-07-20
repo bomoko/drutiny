@@ -2,11 +2,12 @@
 vendor
 *.iml
 .build
-*.phar
+./*.phar
 # Allow users to create custom domains files that are not tracked here.
 domains.yml
 domains-*.yml
 !domains-example.yml
+composer.lock
 
 # Add the reports directory, but none of the reports.
 reports/*
